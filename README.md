@@ -90,7 +90,7 @@ For standard simulator:
 java -DlogPath="." -Dlogback.configurationFile="logback.xml" -jar simulator.jar [-configFile=config.xml]
 ```
 
-While starting this program in standard mdoe, the simulator expects the file `config.xml` relative to itself - this can be set to another filename with parameter `-configFile=config.xml`.
+While starting this program in standard mode, the simulator expects the file `config.xml` relative to itself - this can be set to another filename with parameter `-configFile=config.xml`.
 
 For scenario replay:
 ```shell
@@ -142,7 +142,7 @@ where
 
 ### Configuration (for scenario simulator)
 
-A scenario file (xml) must have a well-defined structure. You can find multiple examples  [here](src/main/config/scenarios/scenario.xml).
+A scenario file (xml) must have a well-defined structure. You can find multiple examples in directory `scenarios` of the given zip file.
 
 ### Advices:
 
